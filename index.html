@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudra Algo Trading</title>
+    <!-- Add polyfill for Import Maps support on older mobile browsers/iPadOS -->
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#F8F9FE',
+              sidebar: '#FFFFFF',
+              surface: '#FFFFFF',
+              primary: '#6B62D2',
+              accent: '#FF4F64',
+              textPrimary: '#272B41',
+              textSecondary: '#8A92A6',
+              success: '#10B981',
+              danger: '#EF4444',
+              warning: '#F59E0B',
+              border: '#E9ECEF',
+              'category-yellow-bg': '#FFF8E8',
+              'category-yellow-text': '#F5B041',
+              'category-green-bg': '#E6F9F4',
+              'category-green-text': '#1ABC9C',
+            },
+            borderRadius: {
+              '2xl': '20px',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #E0E7FF;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "zustand/": "https://aistudiocdn.com/zustand@^4.5.4/",
+    "zustand": "https://aistudiocdn.com/zustand@^4.5.4",
+    "dayjs": "https://aistudiocdn.com/dayjs@^1.11.10/dayjs.min.js",
+    "dayjs/": "https://aistudiocdn.com/dayjs@^1.11.10/",
+    "dayjs/plugin/utc": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/utc.js",
+    "dayjs/plugin/timezone": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/timezone.js",
+    "dayjs/plugin/isoWeek": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/isoWeek.js",
+    "dayjs/plugin/customParseFormat": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/customParseFormat.js",
+    "dayjs/plugin/isSameOrAfter": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/isSameOrAfter.js",
+    "dayjs/plugin/isSameOrBefore": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/isSameOrBefore.js",
+    "dayjs/plugin/isBetween": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/isBetween.js",
+    "dayjs/plugin/minMax": "https://aistudiocdn.com/dayjs@^1.11.10/plugin/minMax.js",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.76.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

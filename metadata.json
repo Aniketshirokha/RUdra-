@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Rudra Algo Trading 2.1",
+  "description": "A dashboard to onboard investors, confirm capital, and allocate daily PnL from a master trading account. It features capital-weighted allocation rules, payment tracking, and performance visualization.",
+  "requestFramePermissions": []
+}
